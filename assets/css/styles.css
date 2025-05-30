@@ -1,0 +1,102 @@
+/* Global Styles */
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* General Styles */
+
+h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+}
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar Styles */
+
+.nav-item {
+    font-size: 1.5rem
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Hero Styles */
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: justify;
+    color: white;
+    padding: 8rem 0;
+}
+
+.hero-part-1 {
+    font-family: 'dancing script', sans-serif;
+    font-size: 8rem;
+    color: #fffd82
+}
+
+.hero-part-2 {
+    font-size: 2rem;
+}
+
+/* Card Styles */
+
+.card {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10), 0 1.5px 6px rgba(0,0,0,0.08);
+}
+
+.card-img-top {
+    height: 618px;
+    object-fit: cover;
+}
+
+.card-title {
+font-family: 'dancing script', sans-serif;
+font-size: 2em;
+border-bottom: 1px solid grey;
+text-align: center;
+margin-bottom: 1rem;
+padding-bottom: 1rem;
+background-color: #0F5299;
+}
+
+.card-body {
+    background-color: #0F5299;
+    color: #fffd82;
+}
+
+/* Carousel Styles */
+
+#quotesCarousel {
+    padding-top: 2rem;
+}
+
+/* Footer Styles */
+
+.footer {
+    position: relative; 
+    width: 100%; 
+    font-size: 1.5rem;
+    background-color: #083B6E;
+    color: white;
+}
+
+.social-links {
+    font-size: 1.5rem;
+}
+
+.fa-brands {
+    color: white;
+    padding: 0 40px;
+}
