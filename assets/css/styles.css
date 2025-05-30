@@ -69,6 +69,11 @@ body {
     object-fit: cover;
 }
 
+.card-img-bottom {
+    height: 618px;
+    object-fit: cover;
+}
+
 .card-title {
 font-family: 'dancing script', sans-serif;
 font-size: 2em;
