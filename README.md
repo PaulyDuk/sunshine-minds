@@ -63,7 +63,7 @@ As a site user I want to learn what contributes to good mental health
 
 **Acceptance Criteria**
 
-   The website provides a clear and organized list of key factors that contribute to good mental health, such as:
+The website provides a clear and organized list of key factors that contribute to good mental health, such as:
 
 - Regular physical activity
 - Healthy eating habits
@@ -122,7 +122,7 @@ As a user I would like to contact the site directly for further information.
 - The Contact Us page includes a form with fields for name, email, subject, and message.
 - The page features a clear and inviting design that matches the overall theme of the website.
 - The form includes validation to ensure all required fields are filled out correctly.
-- A confirmation message is displayed upon successful submission of the form.
+- A confirmation page is displayed upon successful submission of the form.
 - The page is responsive and looks good on different screen sizes (mobile, tablet, desktop).
 
 **Tasks**
@@ -133,6 +133,22 @@ As a user I would like to contact the site directly for further information.
 - Add a confirmation message that appears after successful form submission.
 - Ensure the Contact Us page design is consistent with the website's overall theme.
 
+
+<h3>User Story 7 - Mindfulness</h3>
+
+**Acceptance Criteria**
+
+As a user I would like to know if there are any information that could help me in the moment if I am struggling with my mental health
+
+**Acceptance Criteria**
+
+- Short snippets of information to assist the user
+
+**Tasks**
+
+- Create a list of tips on the index page
+- Anchor tag from the nav bar
+- Ensure the anchor tag works correctly on all screen sizes
 
 # UX design
 # Features
