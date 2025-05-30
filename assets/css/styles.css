@@ -1,3 +1,5 @@
+/* CSS Variables */
+
 /* Global Styles */
 
 * {
@@ -16,16 +18,22 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Navbar Styles */
 
-.nav-item {
-    font-size: 1.5rem
+/* Make the navbar sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.navbar-brand {
-    font-size: 1.5rem;
+.nav-link.active {
+    font-weight: bold;
 }
 
 /* Hero Styles */
