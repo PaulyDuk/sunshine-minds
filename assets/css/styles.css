@@ -82,6 +82,10 @@ background-color: #0F5299;
     padding-top: 2rem;
 }
 
+.carousel-item {
+    color: black;
+}
+
 /* Footer Styles */
 
 .footer {
