@@ -280,179 +280,195 @@
                 </div>
             </section>
             <section id="mindfulness">
-            <div class="text-center my-5">
-                <h2 class="mb-4">8 Mindfulness Exercises</h2>
-                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
-                    <button type="button" class="btn btn-primary" style="margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#modalBreathing">
-                        Guided Breathing
-                    </button>
-                    <button type="button" class="btn btn-primary" style="margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#modalBodyScan">
-                        Body Scan
-                    </button>
-                    <button type="button" class="btn btn-primary" style="margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#modalGratitude">
-                        Gratitude Practice
-                    </button>
-                    <button type="button" class="btn btn-primary" style="margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#modalVisualization">
-                        Visualization
-                    </button>
-                    <button type="button" class="btn btn-primary" style="padding: 0.5rem 1rem; margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#modalMindfulWalking">
-                        Mindful Walking
-                    </button>
-                    <button type="button" class="btn btn-primary" style="padding: 0.5rem 1rem; margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#modalFiveSenses">
-                        Five Senses Exercise
-                    </button>
-                    <button type="button" class="btn btn-primary" style="padding: 0.5rem 1rem; margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#modalLovingKindness">
-                        Loving-Kindness Meditation
-                    </button>
-                    <button type="button" class="btn btn-primary" style="padding: 0.5rem 1rem; margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#modalMindfulEating">
-                        Mindful Eating
-                    </button>
+                <div class="text-center my-5">
+                    <h2 class="mb-4">8 Mindfulness Exercises</h2>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
+                        <div class="col d-grid">
+                            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#modalBreathing">
+                                Guided Breathing
+                            </button>
+                        </div>
+                        <div class="col d-grid">
+                            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#modalBodyScan">
+                                Body Scan
+                            </button>
+                        </div>
+                        <div class="col d-grid">
+                            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#modalGratitude">
+                                Gratitude Practice
+                            </button>
+                        </div>
+                        <div class="col d-grid">
+                            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#modalVisualization">
+                                Visualization
+                            </button>
+                        </div>
+                        <div class="col d-grid">
+                            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#modalMindfulWalking">
+                                Mindful Walking
+                            </button>
+                        </div>
+                        <div class="col d-grid">
+                            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#modalFiveSenses">
+                                Five Senses Exercise
+                            </button>
+                        </div>
+                        <div class="col d-grid">
+                            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#modalLovingKindness">
+                                Loving-Kindness Meditation
+                            </button>
+                        </div>
+                        <div class="col d-grid">
+                            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#modalMindfulEating">
+                                Mindful Eating
+                            </button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Guided Breathing Modal -->
-            <div class="modal fade" id="modalBreathing" tabindex="-1" aria-labelledby="modalBreathingLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalBreathingLabel">Guided Breathing</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    Sit comfortably, close your eyes, and take a slow deep breath in through your nose. Hold for a moment, then exhale gently through your mouth. Repeat this cycle for 2-3 minutes, focusing on the sensation of your breath.
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                
+                <!-- Guided Breathing Modal -->
+                <div class="modal fade" id="modalBreathing" tabindex="-1" aria-labelledby="modalBreathingLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalBreathingLabel">Guided Breathing</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Sit comfortably, close your eyes, and take a slow deep breath in through your nose. Hold for a moment, then exhale gently through your mouth. Repeat this cycle for 2-3 minutes, focusing on the sensation of your breath.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            <!-- Body Scan Modal -->
-            <div class="modal fade" id="modalBodyScan" tabindex="-1" aria-labelledby="modalBodyScanLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalBodyScanLabel">Body Scan</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    Lie down or sit comfortably. Starting at your toes, slowly bring your attention to each part of your body, noticing any sensations or tension. Move upward through your legs, torso, arms, and head, relaxing each area as you go.
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- Body Scan Modal -->
+                <div class="modal fade" id="modalBodyScan" tabindex="-1" aria-labelledby="modalBodyScanLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalBodyScanLabel">Body Scan</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Lie down or sit comfortably. Starting at your toes, slowly bring your attention to each part of your body, noticing any sensations or tension. Move upward through your legs, torso, arms, and head, relaxing each area as you go.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
+                
+                <!-- Gratitude Practice Modal -->
+                <div class="modal fade" id="modalGratitude" tabindex="-1" aria-labelledby="modalVisualizationLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalVisualizationLabel">Gratitude Practice</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Take a moment to think of three things you are grateful for today. They can be big or small. Reflect on why you appreciate them and how they make you feel.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-            <!-- Gratitude Practice Modal -->
-            <div class="modal fade" id="modalGratitude" tabindex="-1" aria-labelledby="modalGratitudeLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalGratitudeLabel">Gratitude Practice</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    Take a moment to think of three things you are grateful for today. They can be big or small. Reflect on why you appreciate them and how they make you feel.
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- Visualization Modal -->
+                <div class="modal fade" id="modalVisualization" tabindex="-1" aria-labelledby="modalVisualizationLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalVisualizationLabel">Visualization</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Close your eyes and imagine a peaceful place, such as a beach or forest. Picture the sights, sounds, and smells. Spend a few minutes immersed in this calming scene, letting your mind relax.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            <!-- Visualization Modal -->
-            <div class="modal fade" id="modalVisualization" tabindex="-1" aria-labelledby="modalVisualizationLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalVisualizationLabel">Visualization</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    Close your eyes and imagine a peaceful place, such as a beach or forest. Picture the sights, sounds, and smells. Spend a few minutes immersed in this calming scene, letting your mind relax.
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- Mindful Walking Modal -->
+                <div class="modal fade" id="modalMindfulWalking" tabindex="-1" aria-labelledby="modalMindfulWalkingLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalMindfulWalkingLabel">Mindful Walking</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Take a slow walk, paying close attention to each step. Notice the sensation of your feet touching the ground, the movement of your legs, and your breath. Observe your surroundings with curiosity, using all your senses as you walk.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            <!-- Mindful Walking Modal -->
-            <div class="modal fade" id="modalMindfulWalking" tabindex="-1" aria-labelledby="modalMindfulWalkingLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalMindfulWalkingLabel">Mindful Walking</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    Take a slow walk, paying close attention to each step. Notice the sensation of your feet touching the ground, the movement of your legs, and your breath. Observe your surroundings with curiosity, using all your senses as you walk.
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- Five Senses Exercise Modal -->
+                <div class="modal fade" id="modalFiveSenses" tabindex="-1" aria-labelledby="modalFiveSensesLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalFiveSensesLabel">Five Senses Exercise</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Pause and notice: 5 things you can see, 4 things you can feel, 3 things you can hear, 2 things you can smell, and 1 thing you can taste. This helps ground you in the present moment.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            <!-- Five Senses Exercise Modal -->
-            <div class="modal fade" id="modalFiveSenses" tabindex="-1" aria-labelledby="modalFiveSensesLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalFiveSensesLabel">Five Senses Exercise</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    Pause and notice: 5 things you can see, 4 things you can feel, 3 things you can hear, 2 things you can smell, and 1 thing you can taste. This helps ground you in the present moment.
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- Loving-Kindness Meditation Modal -->
+                <div class="modal fade" id="modalLovingKindness" tabindex="-1" aria-labelledby="modalLovingKindnessLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalLovingKindnessLabel">Loving-Kindness Meditation</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Sit quietly and repeat phrases such as “May I be happy, may I be healthy, may I be safe.” Gradually extend these wishes to others: loved ones, acquaintances, and even people you find difficult.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            <!-- Loving-Kindness Meditation Modal -->
-            <div class="modal fade" id="modalLovingKindness" tabindex="-1" aria-labelledby="modalLovingKindnessLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalLovingKindnessLabel">Loving-Kindness Meditation</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    Sit quietly and repeat phrases such as “May I be happy, may I be healthy, may I be safe.” Gradually extend these wishes to others: loved ones, acquaintances, and even people you find difficult.
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Mindful Eating Modal -->
-            <div class="modal fade" id="modalMindfulEating" tabindex="-1" aria-labelledby="modalMindfulEatingLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalMindfulEatingLabel">Mindful Eating</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    Choose a small piece of food. Observe its color, texture, and smell. Take a slow bite, noticing the taste and sensation as you chew. Eat slowly, focusing your attention fully on the experience.
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- Mindful Eating Modal -->
+                <div class="modal fade" id="modalMindfulEating" tabindex="-1" aria-labelledby="modalMindfulEatingLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalMindfulEatingLabel">Mindful Eating</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Choose a small piece of food. Observe its color, texture, and smell. Take a slow bite, noticing the taste and sensation as you chew. Eat slowly, focusing your attention fully on the experience.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
             </section>
         </div>
     </main>
