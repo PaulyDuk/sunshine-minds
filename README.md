@@ -1,6 +1,8 @@
 <h2 align="center">Sunshine Minds</h2>
-![Sunshine Minds Home Page](documentation/index_image.png)
-
+![Sunshine Minds Home Page](/docs/index_image.png)
+<p align="center">Welcome to the readme of Sunshine Minds, a website promoting strong mental health. My first individual project from Code Institute</p>
+<br>
+<p align="center">Live Link | Project Board</P>
 
 <h2>Introduction</h2>
 
@@ -18,8 +20,6 @@ The purpose of this website is to raise mental health awareness and what a user 
 - A calming color palette and image set to entice the user in further and remain on the page.
 - Links to external sources to allow the user to reach further information.
 
-# Image of website / amiresponsive
-# Link to Live website
 # Table of Contents
 # User Stories
 
