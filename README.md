@@ -11,7 +11,7 @@
 <li><a href="#introduction">Introduction</a></li>
 <ul>
 <li><a href="#project-outline">Project Outline</a></li>
-<li><a href="key-objectives">Key Objectives</a></li>
+<li><a href="#objectives">Key Objectives</a></li>
 </ul>
 <li><a href="#user-stories">User Stories</a></li>
 <ul>
@@ -25,6 +25,11 @@
 <li><a href="#images">Images</a></li>
 </ul>
 <li><a href="#wireframes">Wireframes</a></li>
+<ul>
+<li><a href="#phone-wireframe">Phone Wireframe</a></li>
+<li><a href="#tablet-wireframe">Tablet Wireframe</a></li>
+<li><a href="#desktop-wireframe">Desktop Wireframe</a></li>
+</ul>
 <li><a href="#features">Features</a></li>
 <li><a href="#ai">AI Implementation</a></li>
 <li><a href="#testing">Testing and Validation</a></li>
@@ -47,7 +52,7 @@ Sunshine Minds is my first individually assessed project developed as part of th
 
 The purpose of this website is to raise mental health awareness and what a user can do to improve that via various means, such as physical activity, balanced and healthy diet and sleep improvment. Although a base of hints and tips will be included here additional resources will be linked for the user to explore further. Lastly there will be a contact us page for any additional questions.
 
-<h2 id="key-objectives">Key Objectives:</h2>
+<h2 id="objectives">Key Objectives:</h2>
 
 - A clean and easy to navigate website that is responsive in design.
 - Provide mental health information to the user.
@@ -99,7 +104,23 @@ I also decided to add a small image from font-awesome.com for each card for a qu
 
 <h1 id="wireframes">Wireframes</h1>
 
-Wireframe images here
+<h2 id="phone-wireframe">Phone Wireframe:</h2>
+
+For this the cards will stack on top of each other into a single column, making it easy to navigate on a small screened device. The menu will also be collapsable at the bottom
+
+<img src="docs/phone_wireframe.png">
+
+<h2 id="tablet-wireframe">Tablet Wireframe:</h2>
+
+For the tablet size screens then this will show 2 cards side by side, allowing for more content and less scrolling. The menu bar will also open back up with the links at the top of the page
+
+<img src="docs/tablet_wireframe.png">
+
+<h2 id="desktop-wireframe">Desktop Wireframe:</h2>
+
+Lastly the desktop view, this will allow 4 cards side by side to provide the most content, the menu will be fully visible like the tablet view.
+
+<img src="docs/desktop_wireframe.png">
 
 <h1 id="features">Features</h1>
 
@@ -147,7 +168,7 @@ I am happy to report that all pages report no errors or warnings:
 
 <img src="docs/contrast2.png">
 
-<h1 id="conclusiuon">Project Conclusion</h1>
+<h1 id="conclusion">Project Conclusion</h1>
 
 <h1 id="credits">Credits</h1>
 
