@@ -5,7 +5,6 @@
 <h2 align="center">Welcome to the readme of Sunshine Minds, a website promoting strong mental health. My first individual project from Code Institute</h2>
 <br>
 <h2 align="center"><a href="https://paulyduk.github.io/sunshine-minds/">Website Link</a> | <a href="https://github.com/users/PaulyDuk/projects/3">Project Board</a></h2>
-
 <h1>Table of Contents</h1>
 <ol>
 <li><a href="#introduction">Introduction</a></li>
@@ -211,6 +210,10 @@ I am happy to report that all pages report no errors or warnings:
 <img src="docs/contrast2.png">
 
 <h1 id="conclusion">Project Conclusion</h1>
+
+I have thoroughly enjoyed creating this website and putting into practice everything I have learned over the previous weeks with Code Institute. I believe I have created a professional looking website in the time I have had available for this project. I particulary enjoyed using the co-pilot AI features within VSCode for quickly templating responsive layouts as well as occasionally using it for debugging. There was some frustration with the AI side but adjusting the prompts usually resulted in better responses. It is definitely not a replacemnt for knowing how to code the website to begin with.
+
+I feel the hardest aspect of this project was the initial planning phase. It became apparent that my initial ideas would not have worked out for the finished product but gave me a good framework to work from to get the MVP available ready for use, before additional adjustments were made. Once the intial ideas were in HTML I felt a lot more enjoyment in making all the little changes to get the finished result.
 
 <h1 id="credits">Credits</h1>
 
