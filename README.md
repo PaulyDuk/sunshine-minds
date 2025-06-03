@@ -21,143 +21,53 @@ The purpose of this website is to raise mental health awareness and what a user 
 # Table of Contents
 # User Stories
 
-<h3>User Story 1 - User friendly navigation and responsive design</h3>
+<h3>User Stories- Must Have's</h3>
 
 As a Site User, I want to navigate easily through the website so that I can find the information I need.
 
-**Acceptance Criteria**
-
-- The navigation bar is clearly visible at the top of every page.
-- Navigation links are labelled clearly and lead to the correct pages.
-- The navigation bar remains usable and readable on all screen sizes.
-- The footer is present on every page and contains social links + copyright
-- The website layout adapts seamlessly to various screen sizes (desktop, tablet, mobile).
-
-**Tasks**
-
-- Create a responsive navigation bar that includes links to Home, Resources and Contact pages.
-- Implement a collapsible menu for mobile devices.
-- Add a footer that includes social media links and copyright information.
-
-
-<h3>User Story 2 - Inviting hero design with welcoming message</h3>
-
-As I enter the site I would like an inviting environment to feel comfortable.
-
-**Acceptance Criteria**
-
-- A prominent high-quality, visually appealing hero image is displayed at the top of the homepage.
-- This includes a welcoming message to the user and explains the sites purpose
-- Contact us button that directs the user to the contact page
-
-**Tasks**
-
-- Design and implement a hero section with a headline and description.
-- Add a "contact us" button linking to the Contact page.
-- Ensure the hero section is visually appealing and aligns with the website's color scheme.
-
-
-<h3>User Story 3 - Mental Health Overview</h3>
+As a site user when I enter the site I would like an inviting environment to feel comfortable in.
 
 As a site user I want to learn what contributes to good mental health
 
-**Acceptance Criteria**
-
-The website provides a clear and organized list of key factors that contribute to good mental health, such as:
-
-- Regular physical activity
-- Healthy eating habits
-- Quality sleep
-- Access to support and professional help
-- Mindfulness and relaxation practices
-
-- Each factor is explained in simple, easy-to-understand language.
-- Explanations include why each factor is important for mental health.
-
-**Tasks**
-
-- Create a section with a heading
-- Have a card for each factor
-- Ensure this is responsive and viewable on all screen sizes
-
-<h3>User Story 4 - Uplifting and positive messages</h3>
-
 As a site user I would like to see affirmitive quotes for inspiriation.
 
-**Acceptance Criteria**
-
-- Positive messages are shown to the user
-- These should rotate to not be repetitive
-- Each quote is quick and simple
-
-**Tasks**
-
-- Create a rotating carosel with bootstrap
-- Ensure this is responsive and viewable on all screen sizes
+As a site user I would like to contact the site directly for further information.
 
 
-<h3>User Story 5 - Additional Resources</h3>
+<h3>User Stories - Should Have's</h3>
 
 As a user I would like to know what additional resources are available to me.
 
-**Acceptance Criteria**
-
-- Clear concise links to external websites
-- Include a logo for brand recognition
-- Have a brief overview and a link to the external site
-
-**Tasks**
-
-- Create a page holding additional resources in a clear and concise format
-- Each resource should have a brief overview, logo and website link
-- The page features a clear and inviting design that matches the overall theme of the website.
-
-
-<h3>User Story 6 - Contact Us</h3>
-
-As a user I would like to contact the site directly for further information.
-
-**Acceptance Criteria**
-
-- The Contact Us page includes a form with fields for name, email, subject, and message.
-- The page features a clear and inviting design that matches the overall theme of the website.
-- The form includes validation to ensure all required fields are filled out correctly.
-- A confirmation page is displayed upon successful submission of the form.
-- The page is responsive and looks good on different screen sizes (mobile, tablet, desktop).
-
-**Tasks**
-
-- Design the responsive layout for the Contact Us page.
-- Create the contact form with fields for name, email, subject, and message.
-- Implement form validation to ensure required fields are completed correctly.
-- Add a confirmation message that appears after successful form submission.
-- Ensure the Contact Us page design is consistent with the website's overall theme.
-
-
-<h3>User Story 7 - Mindfulness</h3>
-
-**Acceptance Criteria**
-
 As a user I would like to know if there are any information that could help me in the moment if I am struggling with my mental health
 
-**Acceptance Criteria**
+<h2>UX/UI Design</h2>
 
-- Short snippets of information to assist the user
+<h3>Colour Design</h3>
 
-**Tasks**
+Given the name of Sunshine Minds I initially decided to go for a blue (simulating the sea) and yellow/orange (simulate the sun) colour scheme. However my initially choices were hard to read and when tested with the webaim.org contrast checker were failing to pass. As such the final colours were tweaked from this and now pass the contrast checker fully. I also believe the colours now look much better and still invite a calming response, with blue backgrounds with a yellow text. I also decided to use a white font in the darker blue navigation and footers for a better contrast and to stand out, as well as not overuse the yellow font throughout the scheme.
 
-- Create a list of tips on the index page
-- Anchor tag from the nav bar
-- Ensure the anchor tag works correctly on all screen sizes
+<h3>Fonts</h3>
 
-# UX design
-# Features
-# Deployment /  Dependencies
-# Accounts
-# AI implementation
-# Testing and Validation
-# References / external links
-# Credits
+I decided on two fonts for this project, both sourced from Google Fonts, which was Dancing Script for the headings and Raleway for the body text. I found the Dancing Script font to be playful and simulated cursive handwriting well whereas the body front of Raleway was easily legible for the bulk of the body text. I like the difference between the two and that this helped break up the sections nicely.
 
-- Pexels.com  - Royalty free hero image - credit the chose one
-- Sun Favicon By Freepik / converted with favicon.io
+<h3>Images</h3>
+
+I initially decided to go against using AI for the images as I thought people would be able to relate more to real life images. All images are royalty free from pexels.com and show the situation regarding to the card it is describing. These were later resized and optimised to the web using squoosh.app, A really handy free online tool to do so. I had also initially decided to include logos on the resources page but decided against this, as the colours of the logos did not sit well with my chosen design theme.
+
+The hero image has a gradient applied to allow the text to be legible. My initial thought was to include a suitable hero image on each page but in testing later on this did not suit the site how I had evisaged.
+
+I also decided to add a small image from font-awesome.com for each card for a quick visual respresentation of what the card details would include.
+
+<h2>Wireframes</h2>
+<h2>Features</h2>
+<h2>AI implementation</h2>
+<h2>Testing and Validation</h2>
+<h2>Credits</h2>
+
+- Code Insitute - For providing the training to build this website
+- Bootstrap - For the responsive site layout
+- Pexels.com  - Royalty free images used for the hero image as well as the cards
+- Sun logo By Freepik 
+- favicon.io - To convert the sun logo to favicons
+- coolers - Colour palette inspiration
+- Google Fonts - Font libraries used
