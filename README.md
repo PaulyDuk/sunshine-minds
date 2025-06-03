@@ -8,7 +8,7 @@
 
 # Table of Contents
 - [Introduction](#introduction)
-- [User Stories](<#User Stories>)
+- [User Stories](<User Stories>)
 - [User Stories](#"User Stories")
 
 # Introduction
