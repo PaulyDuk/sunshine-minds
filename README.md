@@ -6,13 +6,17 @@
 <br>
 <h2 align="center"><a href="https://paulyduk.github.io/sunshine-minds/">Website Link</a> | <a href="https://github.com/users/PaulyDuk/projects/3">Project Board</a></h2>
 
+# Table of Contents
+- [Introduction](#introduction)
+- [User Stories](#User%20Stories)
+
 # Introduction
 
 Sunshine Minds is my first individually assessed project developed as part of the Code Institute Full Stack Software Developer Bootcamp. This will cover the skills I have covered so far whcih consists of HTML, CSS and Bootstrap, with the use of AI to generate code and assist with debugging.
 
 ### Project Outline
 
-The purpose of this website is to raise mental health awareness and what a user can do to improve that via various means, such as physical activity, balanced and healthy died and sleep improvment. Although a base of hints and tips will be included here additional resources will be linked for the user to explore further
+The purpose of this website is to raise mental health awareness and what a user can do to improve that via various means, such as physical activity, balanced and healthy diet and sleep improvment. Although a base of hints and tips will be included here additional resources will be linked for the user to explore further. Lastly there will be a contact us page for any additional questions.
 
 ### Key Objectives:
 
@@ -22,7 +26,6 @@ The purpose of this website is to raise mental health awareness and what a user 
 - A calming color palette and image set to entice the user in further and remain on the page.
 - Links to external sources to allow the user to reach further information.
 
-# Table of Contents
 # User Stories
 
 ### User Stories- Must Have's
@@ -36,7 +39,6 @@ As a site user I want to learn what contributes to good mental health
 As a site user I would like to see affirmitive quotes for inspiriation.
 
 As a site user I would like to contact the site directly for further information.
-
 
 ### User Stories - Should Have's
 
@@ -63,9 +65,31 @@ The hero image has a gradient applied to allow the text to be legible. My initia
 I also decided to add a small image from font-awesome.com for each card for a quick visual respresentation of what the card details would include. I also decided to swap the image between the top of the bottom of the cards to make the site more visually appealing and break up the sections.
 
 # Wireframes
+
+Wireframe images here
+
 # Features
+
+The website features a main index page with 8 cards with information regarding improving mental health and the ways to achieve this. Each card has the text alongside an image relevant to the topic. I decided to break up the 8 cards by having a carousel of inspirational quotes in the middle that automatically rotates. The cards are fully responsive to resize to different size devices and align correctly. At the bottom of the page are then 8 buttons that list exercises the user can do to help improve their mindfulness (bringing yourself back and being in the moment), clicking the buttons opens up a modal of the exercise with steps the user can follow.
+
+Navigation is achieved by a navbar at the top, this sticks to the top of the page and will condense down to a hamburger menu for smaller devices. As the link to mindfulness is an anchor tag on the index page I included additional Javascript code to automatically collapse the menu once clicked, as otherwise the menu would stay open and give a poor user experience.
+
+A footer at the bottom of the page is also included which has social media links to Facebook, Instagrtam, X/Twitter and Linkedin which is also responsive in design, resizing for different display sizes.
+
+The resources page also utilised cards with links to external websites such as Mind, NHS etc. These include a brief text regarding the site as well as links that open in a new tab.
+
+Lastly the contact us page has a form with validation to fill out. As we do not have a backend system in place the form will not POST but will redirect the user to a thank you page. I would like to add this functionality in the future.
+
 # AI implementation
+
+AI was used within the code to help generate large code blocks with little effort, both with the chat functionality in VSCode as well as the inline editor for smaller changes. This allowed for rapid design layouts with minimal repitition of coding myself. This would sometimes take a few prompts to get the exact format I was requested. I would also find that sometimes the code would get bloated when trying to revise a layout the AI provided and it was best to clear the code and start again with a more direct prompt. AI was also used to quickly style certain sections, although I would take the code itself to add to my styles.css file manually rather than use the inline CSS it preferred.
+
+A small amount of debugging with AI was also used to help understand some of the code, although this was minimal. I was monstly able to use the skills I have learned so far through Code Institute to understand the code and make any changes requried. AI was also used to write some of the written content, though I checked and verified this information myself to ensure it was correct and relevant.
+
+I found AI to be an incredibly useful tool to implement large code blocks, which would have been time consuming to write myself manually. It was also great at writing the content I wanted to add myself as "placeholder" text until I could verify the information is correct. I also believe I was lucky in that I did not seem to experience any issues with additional closing tags being added in mistakenly, as proven with the testing and validation below.
+
 # Testing and Validation
+
 # Credits
 
 - Code Insitute - For providing the training to build this website
