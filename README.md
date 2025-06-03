@@ -1,8 +1,10 @@
-<h2 align="center">Sunshine Minds</h2>
-![Sunshine Minds Home Page](/docs/index_image.png)
-<p align="center">Welcome to the readme of Sunshine Minds, a website promoting strong mental health. My first individual project from Code Institute</p>
+<h1 align="center">Sunshine Minds</h1>
 <br>
-<p align="center">Live Link | Project Board</P>
+<img src="docs/index_image.png">
+<br>
+<h2 align="center">Welcome to the readme of Sunshine Minds, a website promoting strong mental health. My first individual project from Code Institute</ph2>
+<br>
+<h2 align="center"><a href="https://paulyduk.github.io/sunshine-minds/">Website Link</a> | <a href="https://github.com/users/PaulyDuk/projects/3">Project Board</a></h2>
 
 <h2>Introduction</h2>
 
