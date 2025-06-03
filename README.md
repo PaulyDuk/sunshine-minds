@@ -31,6 +31,14 @@
 <li><a href="#desktop-wireframe">Desktop Wireframe</a></li>
 </ul>
 <li><a href="#features">Features</a></li>
+<ul>
+<li><a href="#cards">Cards</a></li>
+<li><a href="#buttons">Buttons</a></li>
+<li><a href="#navbar">Navbar</a></li>
+<li><a href="#footer">Footer</a></li>
+<li><a href="#links">Links</a></li>
+<li><a href="#form">Form</a></li>
+</ul>
 <li><a href="#ai">AI Implementation</a></li>
 <li><a href="#testing">Testing and Validation</a></li>
 <ul>
@@ -52,6 +60,10 @@ Sunshine Minds is my first individually assessed project developed as part of th
 
 The purpose of this website is to raise mental health awareness and what a user can do to improve that via various means, such as physical activity, balanced and healthy diet and sleep improvment. Although a base of hints and tips will be included here additional resources will be linked for the user to explore further. Lastly there will be a contact us page for any additional questions.
 
+<b>External User’s Goal:</b> The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
+
+<b>Site Owner’s Goal:</b> The site owner wants to create a welcoming webpage that provides basic mental health information using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
+
 <h2 id="objectives">Key Objectives:</h2>
 
 - A clean and easy to navigate website that is responsive in design.
@@ -64,21 +76,21 @@ The purpose of this website is to raise mental health awareness and what a user 
 
 <h2 id="must-haves">User Stories- Must Haves:</h2>
 
-As a Site User, I want to navigate easily through the website so that I can find the information I need.
+- As a Site User, I want to navigate easily through the website so that I can find the information I need.
 
-As a site user when I enter the site I would like an inviting environment to feel comfortable in.
+- As a site user when I enter the site I would like an inviting environment to feel comfortable in.
 
-As a site user I want to learn what contributes to good mental health
+- As a site user I want to learn what contributes to good mental health
 
-As a site user I would like to see affirmitive quotes for inspiriation.
+- As a site user I would like to see affirmitive quotes for inspiriation.
 
-As a site user I would like to contact the site directly for further information.
+- As a site user I would like to contact the site directly for further information.
 
 <h2 id="should-haves">User Stories - Should Haves:</h2>
 
-As a user I would like to know what additional resources are available to me.
+- As a user I would like to know what additional resources are available to me.
 
-As a user I would like to know if there are any information that could help me in the moment if I am struggling with my mental health
+- As a user I would like to know if there are any information that could help me in the moment if I am struggling with my mental health
 
 <h1 id="design">UX/UI Design</h1>
 
@@ -104,6 +116,8 @@ I also decided to add a small image from font-awesome.com for each card for a qu
 
 <h1 id="wireframes">Wireframes</h1>
 
+Wireframes were important as they gave a visual representation on how I wanted the finish site to look. These took some changes when i was actually impletmenting the site as new ideas came up that would improve the layout. 
+
 <h2 id="phone-wireframe">Phone Wireframe:</h2>
 
 For this the cards will stack on top of each other into a single column, making it easy to navigate on a small screened device. The menu will also be collapsable at the bottom
@@ -124,15 +138,43 @@ Lastly the desktop view, this will allow 4 cards side by side to provide the mos
 
 <h1 id="features">Features</h1>
 
-The website features a main index page with 8 cards with information regarding improving mental health and the ways to achieve this. Each card has the text alongside an image relevant to the topic. I decided to break up the 8 cards by having a carousel of inspirational quotes in the middle that automatically rotates. The cards are fully responsive to resize to different size devices and align correctly. At the bottom of the page are then 8 buttons that list exercises the user can do to help improve their mindfulness (bringing yourself back and being in the moment), clicking the buttons opens up a modal of the exercise with steps the user can follow.
+The website features a main index page with 8 cards with information regarding improving mental health and the ways to achieve this.  Along with modals for exercises and links to resources and a contact us page
+
+<h2 id="cards">Cards:</h2>
+
+Each card has the text alongside an image relevant to the topic. I decided to break up the 8 cards by having a carousel of inspirational quotes in the middle that automatically rotates. The cards are fully responsive to resize to different size devices and align correctly. 
+
+<img src="docs/card.png">
+
+<h2 id="buttons">Buttons:</h2>
+
+At the bottom of the page are then 8 buttons that list exercises the user can do to help improve their mindfulness (bringing yourself back and being in the moment), clicking the buttons opens up a modal of the exercise with steps the user can follow.
+
+<img src="docs/buttons.png">
+
+<h2 id="navbar">Navbar:</h2>
 
 Navigation is achieved by a navbar at the top, this sticks to the top of the page and will condense down to a hamburger menu for smaller devices. As the link to mindfulness is an anchor tag on the index page I included additional Javascript code to automatically collapse the menu once clicked, as otherwise the menu would stay open and give a poor user experience.
 
+<img src="docs/navbar.png">
+
+<h2 id="footer">Footer:</h2>
+
 A footer at the bottom of the page is also included which has social media links to Facebook, Instagrtam, X/Twitter and Linkedin which is also responsive in design, resizing for different display sizes.
+
+<img src="docs/footer.png">
+
+<h2 id="links">Links:</h2>
 
 The resources page also utilised cards with links to external websites such as Mind, NHS etc. These include a brief text regarding the site as well as links that open in a new tab.
 
+<img src="docs/link.png">
+
+<h2 id="form">Form:</h2>
+
 Lastly the contact us page has a form with validation to fill out. As we do not have a backend system in place the form will not POST but will redirect the user to a thank you page. I would like to add this functionality in the future.
+
+<img src="docs/contact_form.png">
 
 <h1 id="ai">AI implementation</h1>
 
