@@ -90,12 +90,38 @@ I found AI to be an incredibly useful tool to implement large code blocks, which
 
 # Testing and Validation
 
+Testing and Validation was a continuous throughout the project lifecycle. By deploying early I could quickly see my initial design choices were not good enough for the project and changes had to be made for the final product. By also deploying early to github I could some spacing issues that were not present in my live preview of the site locally. When large changes were made to the code I would ensure the code was valid and would pass the W3C validation.
+
+I am happy to report that all pages report no errors or warnings:
+
+### W3C HTML Validation:
+
+<img src="docs/index_validation.png">
+
+### W3C CSS Validation:
+
+<img src="docs/CSS_validation.png">
+
+### Lighthouse Score:
+
+<img src="docs/lighthouse.png">
+
+### Card/Text Contrast Score:
+
+<img src="docs/contrast1.png">
+
+### Nav/Footer Contrast Score:
+
+<img src="docs/contrast2.png">
+
 # Credits
 
-- Code Insitute - For providing the training to build this website
-- Bootstrap - For the responsive site layout
-- Pexels.com  - Royalty free images used for the hero image as well as the cards
-- Sun logo By Freepik 
-- favicon.io - To convert the sun logo to favicons
-- coolers - Colour palette inspiration
-- Google Fonts - Font libraries used
+- [Code Insitute](https://codeinstitute.net/) - For providing the training to build this website
+- [Bootstrap](https://getbootstrap.com/) - For the responsive site layout tools
+- [Pexels.com](https://www.pexels.com/)  - Royalty free images used
+- [Flaticon](https://www.flaticon.com/) - Sun Icon
+- [favicon.io](https://favicon.io/) - To convert the sun logo to favicons
+- [coolors](https://coolors.co/) - Colour palette inspiration
+- [Google Fonts](https://fonts.google.com/) - Font libraries used
+- [Font Awesome](https://fontawesome.com/) - Icons used for cards
+- [Sqoosh](https://squoosh.app/) - Used for image optimisation and compression
