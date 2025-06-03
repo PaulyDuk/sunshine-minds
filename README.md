@@ -95,13 +95,13 @@ The purpose of this website is to raise mental health awareness and what a user 
 
 <h2 id="colour-design">Colour Design:</h2>
 
-Given the name of Sunshine Minds I initially decided to go for a blue (simulating the sea) and yellow/orange (simulate the sun) colour scheme. However my initially choices were hard to read and when tested with the webaim.org contrast checker were failing to pass. As such the final colours were tweaked from this and now pass the contrast checker fully. I also believe the colours now look much better and still invite a calming response, with blue backgrounds with a yellow text. I also decided to use a white font in the darker blue navigation and footers for a better contrast and to stand out, as well as not overuse the yellow font throughout the scheme.
+Given the name of Sunshine Minds I initially decided to go for a blue (simulating the sea) and yellow/orange (simulate the sun) colour scheme. However my initial choices were hard to read and when tested with the webaim.org contrast checker were failing to pass. As such the final colours were tweaked from this and now pass the contrast checker fully. I also believe the colours now look much better and still invite a calming response, with blue backgrounds and a yellow text. I also decided to use a white font in the darker blue navigation bar and footers for a better contrast and to stand out, as well as not overuse the yellow font throughout the scheme.
 
 <img src="docs/Colour_Palette.png">
 
 <h2 id="fonts">Fonts:</h2>
 
-I decided on two fonts for this project, both sourced from Google Fonts, which was Dancing Script for the headings and Raleway for the body text. I found the Dancing Script font to be playful and simulated cursive handwriting well whereas the body front of Raleway was easily legible for the bulk of the body text. I like the difference between the two and that this helped break up the sections nicely.
+I decided on two fonts for this project, both sourced from Google Fonts, which was "Dancing Script" for the headings and "Raleway" for the body text. I found the Dancing Script font to be playful and simulated cursive handwriting well whereas the body front of Raleway was easily legible for the bulk of the body text. I like the difference between the two and that this helped break up the sections nicely.
 
 <img src="docs/fonts.png">
 
@@ -177,7 +177,7 @@ Lastly the contact us page has a form with validation to fill out. As we do not 
 
 <h1 id="ai">AI implementation</h1>
 
-AI was used within the code to help generate large code blocks with little effort, both with the chat functionality in VSCode as well as the inline editor for smaller changes. This allowed for rapid design layouts with minimal repitition of coding myself. This would sometimes take a few prompts to get the exact format I was requested. I would also find that sometimes the code would get bloated when trying to revise a layout the AI provided and it was best to clear the code and start again with a more direct prompt. AI was also used to quickly style certain sections, although I would take the code itself to add to my styles.css file manually rather than use the inline CSS it preferred.
+AI was used within the code to help generate large code blocks with little effort, both with the chat functionality in VSCode as well as the inline editor for smaller changes. This allowed for rapid design layouts with minimal repitition of coding myself. This would sometimes take a few prompts to get the exact format I requested. I would also find that sometimes the code would get bloated when trying to revise a layout the AI provided and it was best to clear the code and start again with a more direct prompt. AI was also used to quickly style certain sections, although I would take the code itself to add to my styles.css file manually rather than use the inline CSS it preferred.
 
 A small amount of debugging with AI was also used to help understand some of the code, although this was minimal. I was monstly able to use the skills I have learned so far through Code Institute to understand the code and make any changes requried. AI was also used to write some of the written content, though I checked and verified this information myself to ensure it was correct and relevant.
 
