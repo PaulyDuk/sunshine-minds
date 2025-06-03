@@ -1,4 +1,4 @@
-<h1 align="center">Sunshine Minds</h1>
+<h1 align="center" id="top">Sunshine Minds</h1>
 <br>
 <img src="docs/index_image.png">
 <br>
@@ -6,20 +6,48 @@
 <br>
 <h2 align="center"><a href="https://paulyduk.github.io/sunshine-minds/">Website Link</a> | <a href="https://github.com/users/PaulyDuk/projects/3">Project Board</a></h2>
 
-# Table of Contents
-- [Introduction](#introduction)
-- [User Stories](<User Stories>)
-- [User Stories](#"User Stories")
+<h1>Table of Contents</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<ul>
+<li><a href="#project-outline">Project Outline</a></li>
+<li><a href="key-objectives">Key Objectives</a></li>
+</ul>
+<li><a href="#user-stories">User Stories</a></li>
+<ul>
+<li><a href="#must-haves">Must Haves</a></li>
+<li><a href="#should-haves">Should Haves</a></li>
+</ul>
+<li><a href="#design">UI/UX Design</a></li>
+<ul>
+<li><a href="#colour-design">Colour Design</a></li>
+<li><a href="#fonts">Fonts</a></li>
+<li><a href="#images">Images</a></li>
+</ul>
+<li><a href="#wireframes">Wireframes</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#ai">AI Implementation</a></li>
+<li><a href="#testing">Testing and Validation</a></li>
+<ul>
+<li><a href="#html-validation">HTML Validation</a></li>
+<li><a href="#css-validation">CSS Validation</a></li>
+<li><a href="#lighthouse">Lighthouse</a></li>
+<li><a href="#contrast1">Card/Text Contrast Score</a></li>
+<li><a href="#contrast2">Nav/Footer Contrast Score</a></li>
+</ul>
+<li><a href="#conclusion">Project Conclusion</a></li>
+<li><a href="#credits">Credits</a></li>
+</ol>
 
-# Introduction
+<h1 id="introduction">Introduction</h1>
 
 Sunshine Minds is my first individually assessed project developed as part of the Code Institute Full Stack Software Developer Bootcamp. This will cover the skills I have covered so far whcih consists of HTML, CSS and Bootstrap, with the use of AI to generate code and assist with debugging.
 
-### Project Outline:
+<h2 id="project-outline">Project Outline:</h2>
 
 The purpose of this website is to raise mental health awareness and what a user can do to improve that via various means, such as physical activity, balanced and healthy diet and sleep improvment. Although a base of hints and tips will be included here additional resources will be linked for the user to explore further. Lastly there will be a contact us page for any additional questions.
 
-### Key Objectives:
+<h2 id="key-objectives">Key Objectives:</h2>
 
 - A clean and easy to navigate website that is responsive in design.
 - Provide mental health information to the user.
@@ -27,9 +55,9 @@ The purpose of this website is to raise mental health awareness and what a user 
 - A calming color palette and image set to entice the user in further and remain on the page.
 - Links to external sources to allow the user to reach further information.
 
-# User Stories
+<h1 id="user-stories">User Stories</h1>
 
-### User Stories- Must Haves:
+<h2 id="must-haves">User Stories- Must Haves:</h2>
 
 As a Site User, I want to navigate easily through the website so that I can find the information I need.
 
@@ -41,27 +69,27 @@ As a site user I would like to see affirmitive quotes for inspiriation.
 
 As a site user I would like to contact the site directly for further information.
 
-### User Stories - Should Haves:
+<h2 id="should-haves">User Stories - Should Haves:</h2>
 
 As a user I would like to know what additional resources are available to me.
 
 As a user I would like to know if there are any information that could help me in the moment if I am struggling with my mental health
 
-# UX/UI Design
+<h1 id="design">UX/UI Design</h1>
 
-### Colour Design:
+<h2 id="colour-design">Colour Design:</h2>
 
 Given the name of Sunshine Minds I initially decided to go for a blue (simulating the sea) and yellow/orange (simulate the sun) colour scheme. However my initially choices were hard to read and when tested with the webaim.org contrast checker were failing to pass. As such the final colours were tweaked from this and now pass the contrast checker fully. I also believe the colours now look much better and still invite a calming response, with blue backgrounds with a yellow text. I also decided to use a white font in the darker blue navigation and footers for a better contrast and to stand out, as well as not overuse the yellow font throughout the scheme.
 
 <img src="docs/Colour_Palette.png">
 
-### Fonts:
+<h2 id="fonts">Fonts:</h2>
 
 I decided on two fonts for this project, both sourced from Google Fonts, which was Dancing Script for the headings and Raleway for the body text. I found the Dancing Script font to be playful and simulated cursive handwriting well whereas the body front of Raleway was easily legible for the bulk of the body text. I like the difference between the two and that this helped break up the sections nicely.
 
 <img src="docs/fonts.png">
 
-### Images:
+<h2 id="images">Images:</h2>
 
 I initially decided to go against using AI for the images as I thought people would be able to relate more to real life images. All images are royalty free from pexels.com and show the situation regarding to the card it is describing. These were later resized and optimised to the web using squoosh.app, A really handy free online tool to do so. I had also initially decided to include logos on the resources page but decided against this, as the colours of the logos did not sit well with my chosen design theme.
 
@@ -69,11 +97,11 @@ The hero image has a gradient applied to allow the text to be legible. My initia
 
 I also decided to add a small image from font-awesome.com for each card for a quick visual respresentation of what the card details would include. I also decided to swap the image between the top of the bottom of the cards to make the site more visually appealing and break up the sections.
 
-# Wireframes
+<h1 id="wireframes">Wireframes</h1>
 
 Wireframe images here
 
-# Features
+<h1 id="features">Features</h1>
 
 The website features a main index page with 8 cards with information regarding improving mental health and the ways to achieve this. Each card has the text alongside an image relevant to the topic. I decided to break up the 8 cards by having a carousel of inspirational quotes in the middle that automatically rotates. The cards are fully responsive to resize to different size devices and align correctly. At the bottom of the page are then 8 buttons that list exercises the user can do to help improve their mindfulness (bringing yourself back and being in the moment), clicking the buttons opens up a modal of the exercise with steps the user can follow.
 
@@ -85,7 +113,7 @@ The resources page also utilised cards with links to external websites such as M
 
 Lastly the contact us page has a form with validation to fill out. As we do not have a backend system in place the form will not POST but will redirect the user to a thank you page. I would like to add this functionality in the future.
 
-# AI implementation
+<h1 id="ai">AI implementation</h1>
 
 AI was used within the code to help generate large code blocks with little effort, both with the chat functionality in VSCode as well as the inline editor for smaller changes. This allowed for rapid design layouts with minimal repitition of coding myself. This would sometimes take a few prompts to get the exact format I was requested. I would also find that sometimes the code would get bloated when trying to revise a layout the AI provided and it was best to clear the code and start again with a more direct prompt. AI was also used to quickly style certain sections, although I would take the code itself to add to my styles.css file manually rather than use the inline CSS it preferred.
 
@@ -93,33 +121,35 @@ A small amount of debugging with AI was also used to help understand some of the
 
 I found AI to be an incredibly useful tool to implement large code blocks, which would have been time consuming to write myself manually. It was also great at writing the content I wanted to add myself as "placeholder" text until I could verify the information is correct. I also believe I was lucky in that I did not seem to experience any issues with additional closing tags being added in mistakenly, as proven with the testing and validation below.
 
-# Testing and Validation
+<h1 id="testing">Testing and Validation</h1>
 
 Testing and Validation was a continuous throughout the project lifecycle. By deploying early I could quickly see my initial design choices were not good enough for the project and changes had to be made for the final product. By also deploying early to github I could some spacing issues that were not present in my live preview of the site locally. When large changes were made to the code I would ensure the code was valid and would pass the W3C validation.
 
 I am happy to report that all pages report no errors or warnings:
 
-### W3C HTML Validation:
+<h2 id="html-validation">W3C HTML Validation:</h2>
 
 <img src="docs/index_validation.png">
 
-### W3C CSS Validation:
+<h2 id="css-validation">W3C CSS Validation:</h2>
 
 <img src="docs/CSS_validation.png">
 
-### Lighthouse Score:
+<h2 id="lighthouse">Lighthouse Score:</h2>
 
 <img src="docs/lighthouse.png">
 
-### Card/Text Contrast Score:
+<h2 id="contrast1">Card/Text Contrast Score:</h2>
 
 <img src="docs/contrast1.png">
 
-### Nav/Footer Contrast Score:
+<h2 id="contrast2">Nav/Footer Contrast Score:</h2>
 
 <img src="docs/contrast2.png">
 
-# Credits
+<h1 id="conclusiuon">Project Conclusion</h1>
+
+<h1 id="credits">Credits</h1>
 
 - [Code Insitute](https://codeinstitute.net/) - For providing the training to build this website
 - [Bootstrap](https://getbootstrap.com/) - For the responsive site layout tools
