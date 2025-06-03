@@ -1,4 +1,6 @@
-Sunshine Minds
+<h2 align="center">Sunshine Minds</h2>
+![Sunshine Minds Home Page](documentation/index_image.png)
+
 
 <h2>Introduction</h2>
 
@@ -56,7 +58,7 @@ I initially decided to go against using AI for the images as I thought people wo
 
 The hero image has a gradient applied to allow the text to be legible. My initial thought was to include a suitable hero image on each page but in testing later on this did not suit the site how I had evisaged.
 
-I also decided to add a small image from font-awesome.com for each card for a quick visual respresentation of what the card details would include.
+I also decided to add a small image from font-awesome.com for each card for a quick visual respresentation of what the card details would include. I also decided to swap the image between the top of the bottom of the cards to make the site more visually appealing and break up the sections.
 
 <h2>Wireframes</h2>
 <h2>Features</h2>
